@@ -2,4 +2,6 @@
 
 Intro :
 
-This repo will have all machine larning information and reference in one place 
+This repo will have all machine larning information and reference in one place.
+
+Check with WIKI for more info 
