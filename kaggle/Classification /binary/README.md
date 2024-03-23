@@ -37,6 +37,36 @@ Binary classification is a type of supervised learning task where the goal is to
 - Finds the hyperplane that maximally separates the two classes in the feature space.
 - Can use different kernel functions for non-linear separation.
 
+Support Vector Machines (SVMs) are a versatile class of machine learning algorithms used for classification, regression, and outlier detection tasks. They excel in handling complex data or datasets with high dimensionality.
+
+### How SVMs Work:
+
+**1. Finding the Hyperplane:**
+   - SVMs aim to find a hyperplane in the data space that best separates data points belonging to different classes. This hyperplane serves as a decision boundary, facilitating the classification of new data points.
+
+**2. Maximizing the Margin:**
+   - SVMs don't settle for just any hyperplane; they seek the one with the widest margin between the closest data points from each class. This margin acts as a buffer zone, enhancing the model's ability to generalize well to unseen data.
+
+**3. Support Vectors:**
+   - Support vectors are the data points lying closest to the hyperplane on either side. They are crucial for defining the hyperplane and the SVM model itself.
+
+### Advantages of SVMs:
+
+- **Effective in High Dimensions:** SVMs handle high-dimensional data efficiently, making them suitable for complex problems.
+- **Good Performance:** They are known for achieving high accuracy on various classification tasks.
+- **Memory Efficiency:** SVMs utilize only a subset of training data (support vectors) for classification, making them memory-efficient.
+
+### Limitations of SVMs:
+
+- **Complexity for Large Datasets:** Training SVMs on massive datasets can be computationally expensive.
+- **Tuning Required:** SVMs can be sensitive to the choice of kernel function, requiring optimization for optimal performance.
+
+### Conclusion:
+
+Support Vector Machines are a potent tool in the machine learning toolbox, particularly effective for classification tasks involving complex data. Their capability to handle high dimensionality and discern optimal separation boundaries has made them a favored choice across numerous applications. However, practitioners must carefully consider their computational requirements and the selection of kernel functions to maximize SVM effectiveness.
+
+  Sample code link :  https://github.com/coffeewithdata/MachineLearning/blob/main/MLCourse/SVC.ipynb 
+
 ## 3. Decision Trees
 - Builds a tree-like structure where each internal node represents a decision based on a feature.
 - Can be used for binary classification by assigning classes to leaves.
