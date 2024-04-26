@@ -66,6 +66,7 @@ Support Vector Machines (SVMs) are a versatile class of machine learning algorit
 Support Vector Machines are a potent tool in the machine learning toolbox, particularly effective for classification tasks involving complex data. Their capability to handle high dimensionality and discern optimal separation boundaries has made them a favored choice across numerous applications. However, practitioners must carefully consider their computational requirements and the selection of kernel functions to maximize SVM effectiveness.
 
   Sample code link :  https://github.com/coffeewithdata/MachineLearning/blob/main/MLCourse/SVC.ipynb 
+  Sample code Link :  https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Code/Day%2013%20SVM.md#predicting-the-test-set-results 
 
 ## 3. Decision Trees
 - Builds a tree-like structure where each internal node represents a decision based on a feature.
